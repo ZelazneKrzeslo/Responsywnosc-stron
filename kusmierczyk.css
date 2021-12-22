@@ -1,0 +1,9 @@
+div {
+    background-color:red;
+   }
+   @media projection, tv, tty, screen{
+        div {
+        background-color:green;
+        }
+   }
+   

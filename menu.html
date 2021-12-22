@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Menu</title>
+             <script language="JavaScript">
+
+            function WinOpen_Kusmierczyk2() 
+
+            {
+                window.open("Zadanie_2(r).html","okienko","toolbar=no,directories=no,menubar=no,height=280,width=400,top=700,left=600");
+            }
+        
+            function WinOpen_Kusmierczyk3()
+            {
+                window.open("Zadanie_3(r).html", "okienko", "toolbar=no, directories=no, menubar=no, height=700, width=700, top=350, left=600");    
+            }
+            
+            function WinOpen_Kusmierczyk4() {
+                window.open("Zadanie_4(r).html", "okienko", "toolbar=no, directories=no, menubar=no, height=700, width=700, top=350, left=600");
+            }
+
+            function WinOpen_Kusmierczyk2_Kod() {
+                window.open("Zadanie_2(r)(kodcss).html","okienko","toolbar=no,directories=no,menubar=no,height=280,width=400,top=700,left=600");
+            }
+    </script>
+
+<style> 
+
+    table
+    {
+        border: 1px solid black;
+        width: 100%;
+    }
+
+    #head 
+    {
+        width:100%;
+        text-align:center;
+        font-size: 2cm;
+        font-weight: bold;
+    }
+
+    #body 
+    {
+        width: 5%;
+        text-align: center;
+        height: 200px;
+    }
+
+    td, th 
+    {
+        border: 1px solid black;
+    }
+</style>
+    </head>
+<body>
+
+
+<table>
+
+    	<tr> <td colspan="9" id="head">Oliwier Kuśmierczyk 2P</td> </tr>
+    	<tr> 
+            <td id="body"> <input type="button" name="przycisk" value="Zadanie_2" onclick="WinOpen_Kusmierczyk2(' ')"></td>
+            <td id="body"> <input type="button" name="przycisk" value="Zadanie_3" onclick="WinOpen_Kusmierczyk3(' ')"></td>
+            <td id="body"> <input type="button" name="przycisk" value="Zadanie_4" onclick="WinOpen_Kusmierczyk4(' ')"></td>
+        </tr>
+
+</table>
+	
+<table>
+
+    	<tr> <td colspan="9" id="head">KODY DO ZADAŃ</td> </tr>
+    	<tr> 
+            <td id="body"> <input type="button" name="przycisk" value="Zadanie_2" onclick="WinOpen_Kusmierczyk2_Kod(' ')"></td>
+        </tr>
+
+</table>	
+
+</body>
+</html>
